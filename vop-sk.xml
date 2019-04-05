@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sf-vop [
+<!ENTITY sf_url "www.superfaktura.sk">
+<!ENTITY email_info "info@superfaktura.sk">
+<!ELEMENT sf-vop (title, header, content)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT header (bleh, name, info,validity)>
+<!ELEMENT content (section*)>
+<!ELEMENT section (title, p*)>
+<!ELEMENT p (#PCDATA|link|email|list|see|text)*>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT list (item+)>
+<!ELEMENT item (#PCDATA|link|email|see)*>
+<!ELEMENT see EMPTY>
+<!ELEMENT text (#PCDATA|link|email|see)*>
+<!ELEMENT line (#PCDATA)>
+<!ELEMENT bleh (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT info (line)*>
+<!ELEMENT validity (#PCDATA|link|email)*>
+<!ATTLIST list ordered (true|false) "false">
+<!ATTLIST list type (letter|number) "number">
+<!ATTLIST p id ID #IMPLIED>
+<!ATTLIST section id ID #IMPLIED>
+<!ATTLIST see ref IDREF #IMPLIED>
+]>
+<sf-vop>
+    <title>Všeobecné obchodné podmienky</title>
+    <header>
+
+        <bleh>obchodnej spoločnosti</bleh>
+
+        <name>superfaktura.sk, s.r.o.</name>
+
+        <info>
+            <line>zapísanej do Obchodného registra Okresného súdu Bratislava I, oddiel Sro,</line>
+            <line>vložka č. 81403/B, IČO 46655034, DIČ 2023513470</line>
+            <line>so sídlom Pri Suchom mlyne 6, 811 04 Bratislava</line>
+            <line>(ďalej len „spoločnosť“ v príslušnom gramatickom tvare)</line>
+        </info>
+
+        <validity>platné a účinné pri prevádzkovaní a používaní internetovej stránky <link>&sf_url;</link> a poskytovaní služby SuperFaktura.sk</validity>
+    </header>
+
+    <content>
+        <section>
+            <title>Úvodné ustanovenia</title>
+            <p>Tieto všeobecné obchodné podmienky podrobne upravujú rámec právneho vzťahu medzi spoločnosťou a
+                návštevníkom vznikajúceho pri prehliadaní obsahu internetovej stránky a
+                rámec právneho vzťahu medzi spoločnosťou a používateľom vznikajúceho pri využívaní služby používateľom.
+                Návštevník a používateľ sú viazaní pravidlami upravenými týmito
+                všeobecnými obchodnými podmienkami od okamihu nadobudnutia postavenia návštevníka a/alebo používateľa.
+            </p>
+
+            <p>Právne vzťahy neupravené týmito všeobecnými obchodnými podmienkami sa spravujú príslušnými všeobecne
+                záväznými právnymi predpismi platnými a účinnými na území
+                Slovenskej republiky, a to najmä zákonom č. 513/1991 Zb. Obchodný zákonník v znení neskorších predpisov,
+                a to aj v prípade, že návštevník alebo používateľ sú podnikateľské
+                subjekty registrované v zahraničí alebo ide o fyzické osoby, ktoré sú občanmi iných štátov ako je
+                Slovenská republika.
+            </p>
+
+            <p>Internetová stránka je pre účely týchto všeobecných obchodných podmienok internetová stránka, ktorej
+                obsah sa návštevníkom a používateľom zobrazí v štandardnom
+                internetovom prehliadači po zadaní adresy domény v znení <link>&sf_url;</link> pre vylúčenie akýchkoľvek
+                pochybností sa ustanovuje, že pod internetovou stránkou sa pre účely
+                týchto všeobecných obchodných podmienok rozumie každá internetová stránka identifikovaná cez adresu
+                        subdomén k doméne <link>&sf_url;</link>. Spoločnosť je
+                oprávnená na základe osobitného právneho vzťahu užívať doménu <link>&sf_url;</link> a jej subdomény.
+            </p>
+
+            <p>Obsah internetovej stránky je všetok grafický, textový alebo iný obsah, ktorý sa návštevníkovi a/alebo
+                používateľovizobrazí pri prehliadaní internetovejstránky a/alebo pri využívaní služby okrem obsahu
+                používateľa. Spoločnosť vykonáva všetky majetkové práva autorov alebo iných osôb, ktoré sa svojou
+                tvorivou duševnou činnosťou podieľali na jeho vytvorení a má zároveň všetky práva k obsahu internetovej
+                stránky, ktorý nie je ako predmet ochrany chránený právom tretej osoby z oblasti práva duševného
+                vlastníctva. Pre vylúčenie pochybností sa
+                ustanovuje, že obsahom internetovej stránky je všetok software, ktorý má možnosť návštevník pri
+                prezeraní internetovej stránky a/alebo používateľ pri využívaní služby používať. Vždy, keď sa v týchto
+                obchodných podmienkach použije pojem obsah internetovej stránky, myslí sa tým obsah internetovej stránky
+                ako celok a zároveň každá jeho časť, ak nie je v týchto obchodných podmienkach ustanovené inak. Bez
+                predchádzajúceho súhlasu spoločnosti nemá návštevník ani používateľ právo obsah internetovej stránky
+                alebo ktorúkoľvek jeho časť použiť.
+            </p>
+
+            <p>Obsah používateľa je pre účely týchto všeobecných obchodných podmienok dátový alebo iný obsah vytvorený
+                používateľom prostredníctvom osobitného programového prostredia internetovej stránky, a to
+                prostredníctvom používateľského účtu, a uložený na úložisko dát určené spoločnosťou pri využívaní
+                služby. Obsah používateľa nie je obsahom internetovej stránky s tým, že je majetkom používateľa a za
+                súlad obsahu používateľa s príslušnými všeobecne záväznými právnymi predpismi platnými a účinnými na
+                území Slovenskej republiky zodpovedá v plnom rozsahu používateľ.
+            </p>
+
+            <p>Návštevník je pre účely týchto všeobecných obchodných podmienok fyzická alebo právnická osoba, ktorá si v
+                prostredí štandardného internetového prehliadača zadá do príkazového riadku adresu domény
+                <link>&sf_url;</link> alebo adresu niektorej zo subdomén domény <link>&sf_url;</link> a dôjde k zobrazeniu
+                obsahu internetovej stránky alebo dôjde k jej presmerovaniu na obsah internetovej stránky z prostredia
+                internetových vyhľadávacích služieb alebo z inej internetovej stránky a zobrazí sa obsah internetovej
+                stránky.
+            </p>
+
+            <p>Používateľ je právnická alebo fyzická osoba oprávnená na podnikanie podľa osobitného predpisu, ktorá
+                pravdivo a úplne vyplnila registračný formulár a zaregistrovala sa pre užívanie
+                služby poskytovanej spoločnosťou s využitím internetovej stránky. V prípade, že si používateľ iba
+                prezerá internetovú stránku a nevyužíva službu, považuje sa za návštevníka.
+            </p>
+
+            <p>Používateľský účet je pracovné prostredie používateľa, ku ktorému získa používateľ prístup po vykonaní
+                registrácie a ktorý slúži na využívanie služby používateľom. Prístup ku každému používateľskému účtu
+                bude definovaný unikátnym spojením prihlasovacieho mena a hesla viažuceho sa k prihlasovaciemu menu
+                alebo bude založený na autentifikácií treťou stranou (zjednodušené prihlasovanie najmä cez služby
+                spoločnosti Google alebo Facebook). Povinnou súčasťou úspešného vytvorenia používateľského účtu je
+                vyjadrenie súhlasu s týmito všeobecnými obchodnými podmienkami spoločnosti.
+            </p>
+
+            <p>Služba je pre účely týchto všeobecných obchodných podmienok služba správy administratívno-ekonomickej
+                agendy podnikateľských subjektov v rozsahu podľa ponuky sprístupnenej verejnosti na internetovej stránke
+                a určenej spoločnosťou. Službu poskytuje spoločnosť odplatne, a to za ceny podľa aktuálneho cenníka
+                sprístupneného verejnosti prostredníctvom internetovej stránky. Spoločnosť si vyhradzuje právo
+                poskytovať službu počas spoločnosťou určeného obdobia bezodplatne alebo za cenu zníženú o spoločnosťou
+                určenú sumu. Súčasťou služby je aj uchovávanie záznamov a informácií, ktoré používateľ zadá do služby.
+                Toto uchovávanie záznamov nemá charakter archivácie dokladov používateľa v súlade so zákonom č. 395/2002
+                Z. z. o archívoch a registratúrach v znení neskorších predpisov. Spoločnosť si zároveň vyhradzuje právo
+                informovať používateľa o stave predplatenia služby.
+            </p>
+
+            <p>Spoločnosť je obchodnou spoločnosťou založenou, vzniknutou a zapísanou v príslušných registroch v súlade
+                s príslušnými všeobecne záväznými právnymi predpismi platnými a
+                účinnými na území Slovenskej republiky a je oprávnená uskutočňovať podnikateľskú činnosť tak, aby mohla
+                byť prevádzkovateľom internetovej stránky a zároveň poskytovateľom služby.
+            </p>
+
+            <p>Technické zariadenie je zariadenie obsahujúce hardwareové a softwareové vybavenie umožňujúce pripojenie
+                sa k internetovej stránke v prostredí elektronickej komunikačnej siete
+                internet, prezeranie obsahu internetovej stránky a využívanie služby, najmä osobný počítač a/alebo
+                notebook a/alebo tablet a/alebo smartphone. Technické zariadenie nemusí byť vo
+                vlastníctve návštevníka a/alebo používateľa. Za jeho použitie v súvislosti s prezeraním internetovej
+                stránky a/alebo využitím služby zodpovedá výlučne návštevník a/alebo používateľ.
+            </p>
+        </section>
+
+        <section>
+            <title>Pravidlá pre prezeranie internetovej stránky</title>
+
+            <p>Návštevník má právo prezerať si obsah internetovej stránky s využitím technického
+                zariadenia.
+            </p>
+
+            <p id="prehliadanie-stranok">Návštevník je povinný pri prezeraní internetovej stránky a akejkoľvek časti obsahu
+                internetovej stránky postupovať takým spôsobom, aby svojim konaním nezasahoval do práv
+                spoločnosti a/alebo iných návštevníkov a/alebo používateľov a/alebo tretích osôb.
+            </p>
+
+            <p>Návštevník nesmie z prostredia internetovej stránky vykonať download (tzv. stiahnutie)
+                obsahu internetovej stránky alebo akejkoľvek jeho časti do technického zariadenia nad rámec
+                obsahu internetovej stránky určeného spoločnosťou na stiahnutie do technického zariadenia,
+                ani si z obsahu internetovej stránky vyhotovovať žiaden obrazový a/alebo zvukový a/alebo
+                zvukovoobrazový záznam. V prípade, že návštevník tieto svoje povinnosti poruší, zodpovedá
+                za všetku škodu, ktorá vznikne spoločnosti a/alebo iným návštevníkom a/alebo iným
+                používateľom a/alebo tretím osobám.
+            </p>
+
+            <p>Návštevník má právo vykonať download tej časti obsahu internetovej stránky, ktorú pre tento
+                účel určí spoločnosť s tým, že pri tomto postupe je povinný dodržať pokyny spoločnosti. V
+                prípade nedodržania pokynov spoločnosti zaniká akékoľvek právo návštevníka na náhradu
+                prípadnej škody.
+            </p>
+
+            <p>V prípade, že je obsahom internetovej stránky priestor pre vyjadrenie názoru alebo iného
+                vyjadrenia návštevníka ku konkrétnej skutočnosti, návštevník je rovnako povinný postupovať
+                podľa ustanovenia čl. II ods. <see ref="prehliadanie-stranok" /> týchto všeobecných obchodných podmienok. V prípade, že
+                bude možné takýto zásah predpokladať, spoločnosť si vyhradzuje jednostranne právo takýto
+                názor z obsahu internetovej stránky odstrániť. Pre vylúčenie pochybností sa ustanovuje, že
+                spoločnosť nezodpovedá za akýkoľvek názor zobrazený prostredníctvom internetovej
+                stránky; za obsah názoru alebo iného vyjadrenia a prípadné porušenie všeobecne záväzných
+                právnych predpisov platných a účinných na území Slovenskej republiky zodpovedá
+                samostatne návštevník.
+            </p>
+        </section>
+
+        <section>
+            <title>Registrácia</title>
+
+            <p>V prípade, že návštevník má záujem využívať službu, je povinný vykonať registráciu
+                prostredníctvom registračného formulára sprístupneného verejnosti prostredníctvom
+                internetovej stránky.
+            </p>
+
+            <p>Návštevník je povinný uviesť v registračnom formulári všetky povinné údaje v rozsahu
+                určenom spoločnosťou s tým, že je zároveň povinný uviesť údaje, ktoré sú správne, presné a
+                pravdivé. V prípade, že v registračnom formulári návštevník uvedie nesprávne a/alebo
+                nepresné a/alebo nepravdivé údaje a bude na základe týchto údajov neoprávnene požívať
+                postavenie používateľa, čoho dôsledkom bude vznik škody na majetku spoločnosti a/alebo
+                iných návštevníkov a/alebo iných používateľov a/alebo tretích osôb, návštevník zodpovedá za
+                všetku spôsobenú škodu samostatne bez účasti spoločnosti.
+            </p>
+
+            <p>Okamihom odoslania registračného formulára obsahujúceho všetky povinné údaje a zároveň
+                obsahujúceho údaje správne, presné a pravdivé (ďalej len „riadne vyplnený formulár“ v
+                príslušnom gramatickom tvare) a zaplatením ceny podľa platného cenníka, návštevník získava
+                postavenie používateľa. Podmienkou pre odoslanie registračného formulára je vyjadrenie
+                výslovného súhlasu s týmito všeobecnými obchodnými podmienkami zaškrtnutím
+                príslušného políčka, tzv. „check boxu“.
+            </p>
+
+            <p>Na základe predpokladu riadne vyplneného formulára spoločnosť zriadi používateľovi
+                používateľský účet, ktorý je používateľ oprávnený používať pri využívaní služby a odošle
+                používateľovi spôsobom a vo forme podľa určenia spoločnosti prístupové údaje, ak budú
+                generované spoločnosťou; ak spoločnosťou uvedené prihlasovacie údaje generované
+                nebudú, platia ako prihlasovacie údaje prihlasovacie meno a heslo určené používateľom.
+            </p>
+
+            <p>Používateľský účet je oprávnený používať len používateľ, teda osoba, ktorá vyplnila a odoslala
+                spoločnosti riadne vyplnený formulár. Ak používateľ odovzdá prihlasovacie údaje do svojho
+                používateľského účtu tretej osobe, nesie samostatne a bez účasti spoločnosti následky za
+                prípadné škody, ktoré mu a/alebo spoločnosti a/alebo inému používateľovi a/alebo
+                návštevníkovi a/alebo tretej osobe v súvislosti s užívaním služby treťou osobou vzniknú.
+            </p>
+
+            <p>V prípade,že spoločnosťzistí,že je odôvodnene možné predpokladať,že odoslaný registračný
+                formulár nie je riadne vyplneným formulárom (napríklad uvedenie nesprávnych,
+                nepravdivých alebo neaktuálnych údajov), spoločnosť si vyhradzuje právo jednostranného
+                zrušenia používateľského účtu a nenávratného odstránenia celého obsahu používateľa jeho
+                vymazaním z úložiska dát. Spoločnosť v takomto prípade nezodpovedá za prípadnú vzniknutú
+                škodu osobe, ktorá odoslala spoločnosti registračný formulár bez toho, aby spĺňal parametre
+                riadne vyplneného formulára.
+            </p>
+
+            <p>Každý z používateľov má právo registrovať sa iba raz a využívať službu prostredníctvom
+                jediného používateľského účtu; každý používateľský účetje viazaný na jedno unikátne daňové
+                identifikačné číslo (DIČ) a identifikačné číslo (IČO) prideľované príslušným okresným úradom,
+                odborom živnostenského podnikania. V prípade, že sa už registrovaný používateľ registruje
+                opätovne, a to popri existencii jeho užívateľského účtu, spoločnosť si vyhradzuje právo
+                jednostranne odstrániť takto vzniknuté duplicitné používateľské účty. V takomto prípade,
+                keďže ide o podmienku pre existenciu práva používateľa užívaťslužbu, používateľovi nevzniká
+                právo na náhradu prípadnej škody, ktorú v tejto súvislosti utrpí. V prípade opakovaného
+                opätovného postupu, ktorého obsahom bude opätovná registrácia a vznik duplicitných
+                používateľských účtov, spoločnosť si vyhradzuje odstrániť každý používateľský účet
+                používateľa a obsah používateľa bez vzniku práva používateľa na náhradu akejkoľvek škody.
+                Spoločnosť si vyhradzuje právo jednostranne zmeniť spôsob registrácie používateľov v súlade
+                s obsahom internetovej stránky alebo v súvislosti s potrebami spoločnosti a/alebo
+                návštevníkov a/alebo používateľov a/alebo tretích osôb a ochranou ich práv alebo
+                oprávnených záujmov.
+            </p>
+        </section>
+
+        <section>
+            <title>Obsah služby a práva a povinnosti spoločnosti</title>
+
+            <p>Spoločnosť poskytuje prostredníctvom internetovej stránky používateľom službu, a to
+                odplatne alebo bezodplatne. O bezodplatnosti poskytovania služby a o dobe trvania
+                poskytovania služby bezodplatne rozhoduje jednostranne spoločnosť.
+            </p>
+            <p>Pri poskytovaní služby spoločnosť vytvorí používateľovi podmienky najmä na možnosť
+                jednoduchej, rýchlej a bezpečnej tvorby faktúr, ich tlače a odosielania emailom či poštou,
+                pohodlného sledovania platieb, kompletného prehľadu o dlžníkoch, kompletného prehľadu o
+                hospodárení, evidencie nákladov, automatického posielania faktúr poštou, prípravy
+                konkrétneho druhu daňového priznania a iných možností podľa aktuálnej ponuky spoločnosti
+                sprístupnenej verejnosti prostredníctvom internetovej stránky alebo osobitného blogu s
+                adresou domény v znení <link>&sf_url;/blog/</link>.
+            </p>
+            <p>Pre vylúčenie pochybností sa ustanovuje, že služba poskytovaná spoločnosťou nie je
+                poradenskou službou, službou zabezpečujúcou archiváciu dokladov používateľa v súlade so
+                zákonom č. 395/2002 Z. z. o archívoch a registratúrach v znení neskorších predpisov (ďalej
+                len „Zákon“), službou účtovníka alebo finančného poradcu alebo advokáta alebo inej osoby
+                podľa osobitného všeobecne záväzného právneho predpisu platného a účinného na území
+                Slovenskej republiky. Zmyslom a účelom služby je sprehľadnenie a zefektívnenie
+                administratívno-ekonomickej agendy používateľa. Za obsah a správnosť konkrétnych
+                administratívnych a ekonomických úkonov vykonávaných vo vzťahu k tretím osobám, okrem
+                iného aj vo vzťahu k orgánom verejnej moci, nesie výlučnú zodpovednosť používateľ.
+            </p>
+            <p>Používateľ berie na vedomie a súhlasístým,že ak sa na spoločnosť obráti orgán verejnej moci
+                v súvislostis vedením konkrétneho občianskeho, obchodného,správneho (vrátane daňového
+                a registratúrneho), trestného alebo iného konania, spoločnosť môže poskytnúť tomuto
+                orgánu všetky informácie, ktoré bude mať k dispozícii a poskytnutie týchto informácií sa
+                nepovažuje za porušenie povinností spoločnosti podľa týchto všeobecných obchodných
+                podmienok.
+            </p>
+            <p>Spoločnosť si vyhradzuje právo poskytovať službu v spoločnosťou určených balíčkoch za ceny
+                stanovené spoločnosťou a právo poskytovať doplnkové služby podľa cenníka doplnkových
+                služieb.
+            </p>
+            <p>Spoločnosť je povinná zabezpečiť, aby bola služba poskytovaná nepretržite po dobu jej
+                poskytovania, a teda bez jej výpadkov alebo iných prerušení. Za porušenie povinností
+                spoločnosti sa nepovažuje prerušenie poskytovania služby v dôsledku okolností vylučujúcich
+                zodpovednosť v súlade s čl. VII týchto všeobecných obchodných podmienok. Za porušenie
+                povinností sa rovnako nepovažuje prerušenie poskytovania služby z dôvodu servisných
+                zásahov spoločnosti.
+            </p>
+            <p>Spoločnosť je povinná vykonať všetky úkony, ktoré je od nej možné objektívne zo strany
+                používateľa očakávať vzhľadom na povahu poskytovanej služby a zároveň vzhľadom na
+                podnikateľské a ekonomické zázemie spoločnosti za účelom predídenia vzniku škody na
+                majetku návštevníka a/alebo používateľa. Za škodu na majetku návštevníka a/alebo
+                používateľa, ktorá vznikla v dôsledku porušenia ich povinností, spoločnosť nezodpovedá.
+            </p>
+            <p>V prípade, že dôjde ku zmene skutočností, ktoré budú mať vplyv na poskytovanie služby
+                používateľovi sa spoločnosť zaväzuje, že o týchto skutočnostiach bude informovať
+                používateľov, ktorých sa konkrétna zmena týka, a to formou e-mailovej správy, ak bude mať
+                spoločnosť k dispozícii e-mailovú adresu používateľa alebo písomne na adresu sídla alebo
+                miesta podnikania používateľa, ktoré používateľ oznámi spoločnosti prostredníctvom riadne
+                vyplneného formulára v procese registrácie používateľa; v prípade, ak dôjde k zmene údajov
+                na strane používateľa a používateľ o tejto skutočnosti spoločnosť neinformuje a v dôsledku
+                tejto skutočnosti nebude možné zo strany spoločnosti riadne si splniť svoju povinnosť podľa
+                tohto odseku, spoločnosť nezodpovedá za škodu, ktorá môže byť používateľovi spôsobená v
+                dôsledku neinformovania používateľa.
+            </p>
+            <p>Spoločnosť má ďalšie práva a povinnosti podľa ostatných ustanovení týchto všeobecných
+                obchodných podmienok.
+            </p>
+            <p>Spoločnosť si vyhradzuje právo jednostranne doplniť alebo zmeniť tieto všeobecné obchodné
+                podmienky a to aj v prípade, ak to bude vyžadovať ochrana práv alebo oprávnených záujmov
+                spoločnosti a/alebo návštevníkov a/alebo používateľov a/alebo tretích osôb.
+            </p>
+            <p>V prípade, že používateľ poruší niektorú zo svojich podstatných povinností podľa týchto
+                všeobecných obchodných podmienok alebo opakovane poruší menej závažnú povinnosť
+                podľa týchto všeobecných obchodných podmienok, spoločnosť má právo jednostranne zrušiť
+                používateľský účet používateľa a nenávratne odstrániť obsah používateľa z úložiska dát; v
+                takomto prípade spoločnosť nezodpovedá za škodu, ktorá prípadne vznikne používateľovi v
+                súvislosti s odstránením používateľského účtu a obsahu používateľa.
+            </p>
+            <p>Používateľ berie na vedomie, že služba poskytnutá spoločnosťou nezabezpečuje archiváciu
+                registratúrnych záznamov/uchovávanie účtovných dokladov vložených alebo vytvorených
+                používateľom v rámci poskytnutia služby podľa Zákona, resp. podľa príslušných ustanovení
+                daňových všeobecne záväzných právnych predpisov. Spoločnosť nezodpovedá za škodu, ktorá
+                prípadne vznikne používateľovi v súvislosti s povinnosťami stanovenými všeobecne záväznými
+                predpismi v oblasti registratúry a archívnictva, resp. v oblasti uchovávania účtovných
+                dokladov.
+            </p>
+        </section>
+
+        <section>
+            <title>Práva a povinnosti používateľa</title>
+
+            <p>Používateľ má všetky povinnosti návštevníka podľa čl. II týchto všeobecných obchodných
+                podmienok a zároveň voči používateľovi má spoločnosť rovnaké práva ako voči návštevníkovi.</p>
+
+            <p>Používateľ má právo používať používateľský účet pre potreby využívania služieb.</p>
+
+            <p>Používateľ je povinný zaplatiť za poskytnutie služieb spoločnosti cenu v rozsahu a spôsobom
+                v súlade s týmito všeobecnými obchodnými podmienkami a v súlade s platným cenníkom
+                sprístupneným verejnosti prostredníctvom internetovej stránky.</p>
+
+            <p>Používateľ je povinný postupovať tak, aby nedošlo k neoprávnenému vstupu do
+                používateľského účtu osobou, ktorá na vstup do tohto účtu nie je oprávnená, najmä je
+                povinný vykonať všetky opatrenia, aby zamedzil úniku údajov prihlasovacieho mena a hesla,
+                inak zodpovedá za všetku škodu, ktorú v dôsledku tejto skutočnosti utrpí spoločnosť a/alebo
+                iný používateľ a/alebo návštevník a/alebo tretia osoba.</p>
+
+
+            <p>Ak používateľ zistí, že hrozí zásah do práv spoločnosti a/alebo práv používateľa a/alebo práv
+                iných používateľov a/alebo práv návštevníkov a/alebo práv tretích osôb, je povinný o tejto
+                skutočnosti bezodkladne upovedomiť spoločnosť. Rovnakú povinnosť má používateľ aj v
+                prípade, že nadobudne vedomosť o už existujúcom zásahu do práv osôb podľa
+                predchádzajúcej vety tohto odseku.</p>
+
+            <p>Používateľ má právo vykonať download konkrétneho obsahu určeného spoločnosťou a
+                zároveň pri využívaní údajov nahrávať na úložisko dát určené spoločnosťou dáta spojené s
+                podnikateľskou činnosťou používateľa ako obsah používateľa.
+            </p>
+
+            <p id="archivacia">Obsah používateľa má používateľ právo archivovať na dátovom úložisku určenom
+                spoločnosťou do skončenia poskytovania služby; za skončenie poskytovania služby sa
+                považuje okamih skončenia posledného dňa obdobia, počas ktorého používateľ využíval
+                službu, za ktorú uhradil cenu. Používateľ bude mať právo vstupu do používateľského účtu aj
+                po skončení poskytovania služby s tým, že všetok obsah používateľa bude môcť exportovať z
+                úložiska dát; po skončení poskytovania služby však používateľ nebude môcť vytvárať nový
+                používateľský obsah. Používateľ má právo požiadať spoločnosť o okamžité odstránenie
+                používateľského účtu a/alebo obsahu používateľa s tým, že spoločnosť po obdržaní takejto
+                požiadavky používateľský účet zruší a nenávratne odstráni obsah používateľa bezodkladne po
+                doručení žiadosti používateľa zmazaním všetkých dát, ktoré sú súčasťou obsahu používateľa;
+                spoločnosť v tomto prípade nie je povinná zmazať údaje, ktoré je povinná uchovávať v zmysle
+                všeobecne záväzných právnych predpisov platných a účinných na území Slovenskej republiky.
+                Za odstránenie obsahu používateľa si spoločnosť nebude účtovať žiadne poplatky alebo ceny.
+                Používateľ má možnosť zmazať obsah svojho používateľského účtu aj samostatne, a to
+                zmazaním údajov, ktoré do neho vyplnil.
+            </p>
+
+            <p>Používateľ má právo požiadať spoločnosť o likvidáciu resp. výmaz osobných údajov, ktoré
+                spoločnosti poskytol (ďalej len „likvidácia osobných údajov“). Pri likvidácií osobných údajov
+                spoločnosť vymaže resp. zlikviduje všetky osobné údaje, ktoré používateľ spoločnosti
+                poskytol, okrem tých, ktoré je spoločnosť povinná uchovávať v zmysle všeobecne záväzných
+                právnych predpisov platných a účinných na území Slovenskej republiky.
+            </p>
+
+            <p>Používateľ má právo používať obsah internetovej stránky tak, aby mohol riadne využívať
+                službu a s takýmto použitím obsahu internetovej stránky spoločnosť vyslovuje svoj
+                nevýhradný súhlas platný na území Slovenskej republiky a po dobu trvania právneho vzťahu
+                medzi spoločnosťou a používateľom; týmto ustanovením nie sú dotknuté povinnosti
+                používateľa podľa týchto všeobecných obchodných podmienok.
+            </p>
+
+            <p>V prípade, že spoločnosť zistí, že objektívne existuje predpoklad o tom, že používateľ ukladá
+                na úložisko dát určené spoločnosťou v rámci využívania služby dáta, ktoré zasahujú do práv
+                spoločnosti a/alebo iných používateľov a/alebo návštevníkov a/alebo tretích osôb,spoločnosť
+                má právo jednostranne nenávratne odstrániť všetok obsah používateľa z úložiska dát jeho
+                zmazaním. Pred uskutočnením zrušenia používateľského účtu a nenávratným zmazaním
+                obsahu používateľa spoločnosť o zamýšľanom úkone používateľa upovedomí a zároveň ho
+                vyzve, aby si obsah používateľa vyexportoval. Spoločnosť v takomto prípade nezodpovedá za
+                škodu, ktorá v dôsledku tohto konania môže používateľovi vzniknúť.
+            </p>
+
+            <p>Používateľ berie na vedomie, že v rámci zásad férového využívania služby (FUP), je jeho
+                maximálny počet API volaní (requestov) na servery služby (ďalej ako limit) 1 000 volaní za deň,
+                resp. 30 000 volaní za mesiac. Tento limit je možné po dohode používateľa a spoločnosti za
+                dohodnutú cenu navýšiť. V prípade prekročenia týchto limitov si spoločnosť vyhradzuje právo
+                obmedziť službu, prípadne bezodkladne odstúpiť od zmluvy.</p>
+        </section>
+
+        <section>
+            <title>Platobné podmienky a fakturácia</title>
+
+            <p>Spoločnosť má za poskytnutie služby právo na zaplatenie ceny podľa platného cenníka
+                sprístupneného spoločnosťou verejnosti prostredníctvom internetovej stránky.</p>
+
+            <p>Spoločnosť si vyhradzuje právo prispôsobovať ceny jednotlivým balíčkom častí služby, ktoré
+                bude ponúkať návštevníkom a používateľom a zároveň jednostranne meniť ceny za službu.</p>
+
+            <p>V prípade,že dôjde k zmene ceny za službu,spoločnosť je povinná rešpektovať cenu za službu
+                podľa cenníka platného v dobe vzniku právneho vzťahu medzi spoločnosťou a používateľom
+                po dobu, počas ktorej má cena platiť.</p>
+
+            <p>Návštevník a používateľ má právo zaplatiť cenu za poskytnutie služby v režime „online“ s
+                využitím služieb internet bankingu alebo v režime „offline“. V prípade využitia režimu „offline“
+                spoločnosť zašle návštevníkovi alebo používateľovi výzvu na zaplatenie ceny. Po zaplatení
+                ceny za službu spoločnosť bezodkladne doručí používateľovi faktúru ako účtovný a daňový
+                doklad. Za riadne vystavenú faktúru sa považuje faktúra vystavená v súlade s príslušnými
+                všeobecne záväznými právnymi predpismi platnými na území Slovenskej republiky a bude
+                obsahovať všetky náležitosti riadneho daňového a účtovného dokladu.</p>
+
+            <p>Bankové poplatky spojené s platbami návštevníka a používateľa podľa týchto všeobecných
+                obchodných podmienok znáša návštevník a používateľ.</p>
+
+            <p>Používateľ má právo začať s využívaním služby až po zaplatení ceny; návštevník sa stáva
+                používateľom až po zaplatení ceny a až po zaplatení ceny má právo využívaťslužbu. V prípade,
+                že používateľ využíva službu a má v úmysle využívať službu aj po skončení obdobia, za ktoré
+                už cenu za poskytnutie služby zaplatil, je povinný zaplatiť cenu za ďalšie obdobie vopred tak,
+                aby v prvý deň nového obdobia bola cena za nasledujúce obdobie zaplatená.</p>
+
+            <p>Cena sa považuje za zaplatenú okamihom jej pripísania na účet spoločnosti.</p>
+        </section>
+
+        <section>
+            <title>Okolnosti vylučujúce zodpovednosť</title>
+
+            <p>Pre účely tejto zmluvy znamenajú okolnosti vylučujúce zodpovednosť spoločnosti také
+                mimoriadne a neodvrátiteľné udalosti alebo okolnosti a ich bezprostredné následky, ktoré sú
+                mimo kontrolu spoločnosti a ktoré spoločnostizabránia alebo bezprostredne ovplyvnia riadne
+                a úplné plnenie povinností vyplývajúcich z týchto všeobecných obchodných podmienok.
+                Týmito udalosťami môžu byť najmä, ale nie výlučne, živelné pohromy, vojna, sabotáž,
+                teroristické akcie, blokáda, požiar, štrajk, epidémia, zlyhanie subdodávateľa (vrátane
+                dodávateľov energií) a podobné. Rovnaké právne následky môže mať zmena všeobecne
+                záväzných právnych predpisov, pokiaľ zásadným spôsobom ovplyvní plynulé pokračovanie
+                právnych vzťahov regulovaných týmito všeobecnými obchodnými podmienkami a nebude
+                existovať ekonomicky únosná alternatíva.</p>
+        </section>
+
+        <section>
+            <title>Predchádzanie škodám a náhrada škody</title>
+
+            <p>Spoločnosť, návštevník a používateľ sú povinní venovať zvýšenú pozornosť predchádzaniu
+                škodám, a to najmä všeobecnej prevencii vzniku škôd. Návštevník a používateľ je povinný
+                oznámiť spoločnosti prekážky, ktoré im bránia alebo budú brániť v plnení povinností podľa
+                týchto všeobecných obchodných podmienok a dôsledky neplnenia. Informácia musí byť
+                podaná bez zbytočného odkladu potom, kedy sa povinná strana o prekážke dozvedela, alebo
+                sa pri náležitej starostlivosti mohla dozvedieť.</p>
+
+            <p>Každý účastník právneho vzťahu má právo na náhradu škody spôsobenej v dôsledku porušenia
+                povinností iným účastníkom právneho vzťahu okrem prípadu, ak je zodpovednosť vylúčená
+                podľa týchto všeobecných obchodných podmienok.</p>
+
+            <p>V prípade, že dôjde k okolnosti vylučujúcej zodpovednosť spoločnosti, spoločnosť je povinná
+                o týchto okolnostiach písomne informovať používateľa.</p>
+
+        </section>
+
+        <section>
+            <title>Osobné údaje a ich ochrana</title>
+            <p id="osobne-udaje-1">Spoločnosť zhromažďuje osobné údaje používateľa v rozsahu podľa údajov, ktoré vyžaduje
+                registrácia, za účelom plnenia zmluvy, v ktorej požívateľ vystupuje ako jedna zo zmluvných
+                strán. Na spracúvanie osobných údajov používateľa podľa predchádzajúcej vety sa v súlade s
+                ustanovením § 13 ods. 1 písm. b) zákona č. 18/2018 Z. z. o ochrane osobných údajov a o
+                zmene a doplnení niektorých zákonov v znení neskorších predpisov (ďalej len „zákon
+                o ochrane osobných údajov“) nevyžaduje súhlas používateľa ako dotknutej osoby.
+            </p>
+            <p>
+                <text>Návštevník a používateľ majú právo na základe písomnej žiadosti od spoločnosti vyžadovať:</text>
+                <list ordered="true" type="letter">
+                    <item>potvrdenie, či sú alebo nie sú jeho osobné údaje spracúvané,</item>
+                    <item>vo všeobecne zrozumiteľnej forme informácie o spracúvaní osobných údajov v
+                        informačnom systéme a oboznámiť sa s postupom spracúvania a vyhodnocovania
+                        operácií,</item>
+                    <item>vo všeobecne zrozumiteľnej forme presné informácie o zdroji, z ktorého spoločnosť
+                        získala jeho osobné údaje na spracúvanie,</item>
+                    <item>vo všeobecne zrozumiteľnej forme zoznam jeho osobných údajov, ktoré sú predmetom
+                        spracúvania,</item>
+                    <item>opravu alebo likvidáciu jeho nesprávnych, neúplných alebo neaktuálnych osobných
+                        údajov, ktoré sú predmetom spracúvania,</item>
+                    <item>likvidáciu jeho osobných údajov, ktorých účel spracúvania sa skončil,</item>
+                    <item>likvidáciu jeho osobných údajov, ktoré sú predmetom spracúvania, ak došlo k
+                        porušeniu zákona,</item>
+                    <item>blokovanie jeho osobných údajov z dôvodu odvolania súhlasu pred uplynutím času
+                        jeho platnosti, ak spoločnosť spracúva osobné údaje na základe súhlasu používateľa
+                        ako dotknutej osoby.</item>
+                </list>
+            </p>
+
+            <p>
+                <text>Návštevník a používateľ, na základe písomnej žiadosti, majú právo u spoločnosti namietať voči:</text>
+                <list ordered="true" type="letter">
+                    <item>spracúvaniu jeho osobných údajov, o ktorých predpokladá, že sú alebo budú
+                        spracúvané na účely priameho marketingu bez jeho súhlasu a žiadať ich likvidáciu,</item>
+                    <item>využívaniu osobných údajov v rozsahu – titul, meno, priezvisko a adresa – na účely
+                        priameho marketingu v poštovom styku, alebo</item>
+                    <item>poskytovaniu osobných údajov v rozsahu – titul, meno, priezvisko a adresa – na účely priameho marketingu.</item>
+                </list>
+            </p>
+
+            <p>Používateľ berie na vedomie, že spoločnosť spracúva osobné údaje, ktoré používateľ zadá do
+                svojho používateľského konta za účelom poskytovania služby používateľovi v zmysle týchto
+                všeobecných obchodných podmienok. Používateľ berie tiež na vedomie, že spoločnosť môže
+                poveriť spracúvaním osobných údajov ďalších sprostredkovateľov. Používateľ má tiež právo
+                informovať sa u spoločnosti, ktorým sprostredkovateľom boli jeho údaje poskytnuté.
+            </p>
+            <p>Spoločnosť v prípade, ak spracúva osobné údaje pri poskytovaní služby pre návštevníka
+                a/alebo používateľa, koná tak najmä v postavení sprostredkovateľa v zmysle zákona
+                o ochrane osobných údajov. Návštevník a/alebo používateľ sú pri využívaní služby primárne
+                a najmä v postavení prevádzkovateľa v zmysle zákona o ochrane osobných údajov.
+            </p>
+            <p>Spoločnosť spracúva osobné údaje výlučne za účelom poskytovania služby pre používateľa
+                v zmysle týchto všeobecných obchodných podmienok. Predmetom spracovania osobných
+                údajov sú najmä osobné údaje klientov používateľov, ktoré poskytuje používateľ spoločnosti
+                za účelom využívania služby spoločnosti tzn. služby správy administratívno-ekonomickej
+                agendy podnikateľských subjektov (týmito môže byť meno a priezvisko, adresa a iné
+                v rozsahu, v akom ich používateľ poskytne spoločnosti). Osobné údaje, ktoré spracúva
+                spoločnosť pre používateľa nie sú osobnými údajmi týkajúcimi sa zdravia, biometrickými
+                údajmi, genetickými údajmi ani osobnými údajmi týkajúcimi sa rozsudkov v trestných veciach
+                alebo trestných činov v zmysle zákona o ochrane osobných údajov.
+            </p>
+            <p>Spoločnosť zachováva mlčanlivosť o všetkých údajoch a osobných údajoch, ktoré používateľ
+                zadá do používateľského konta. V prípade, ak spoločnosť poverí ďalšie osoby spracovaním
+                osobných údajov, deje sa tak len za účelom poskytovania služby v zmysle týchto všeobecných
+                obchodných podmienok. Tieto osoby budú zároveň povinné rovnako dodržiavať mlčanlivosť
+                ako spoločnosť vo vzťahu k údajom resp. osobným údajom, ktoré používateľ spoločnosti
+                poskytol. Tieto osoby sú povinné riadiť sa pri vykonávaní svojej činnosti okrem iného aj týmito
+                všeobecnými obchodnými podmienkami.
+            </p>
+            <p>Spoločnosť za účelom zabezpečenia bezpečnosti spracúvania osobných údajov prijala so
+                zreteľom na najnovšie poznatky, na náklady na vykonanie opatrení, na povahu, rozsah,
+                kontext a účel spracúvania osobných údajov a na riziká s rôznou pravdepodobnosťou a
+                závažnosťou pre práva dotknutých osôb primerané technické a organizačné opatrenia na
+                zaistenie úrovne bezpečnosti primeranej tomuto riziku. Používateľ má právo informovať sa
+                u spoločnosti o prijatých bezpečnostných a technických opatreniach podľa tohto bodu
+                všeobecných obchodných podmienok.
+            </p>
+            <p>Spoločnosť po zohľadnení povahy a rozsahu spracúvania osobných údajov pre konkrétneho
+                používateľa môže poskytnúť súčinnosť používateľovi vhodnými technickými a organizačnými
+                opatreniami pri plnení povinností prevádzkovateľa voči dotknutým osobám. Takouto
+                súčinnosťou môže byť najmä poskytnutie služby zákazníckeho servisu. Obdobne poskytne
+                spoločnosť súčinnosť používateľovi ohľadom použitých bezpečnostných a technických
+                opatreniach, ktorými spoločnosť zaisťuje bezpečnosť spracúvania údajov resp. osobných
+                údajov. Spoločnosť tiež poskytne používateľovi informácie potrebné na preukázanie splnenia
+                povinností a poskytne súčinnosť v nevyhnutnom rozsahu v rámci auditu ochrany osobných
+                údajov a kontroly zo strany používateľa alebo audítora povereného používateľom.
+            </p>
+        </section>
+
+        <section>
+            <title>Informácie pre spotrebiteľov</title>
+
+            <p>Reklamácie služby poskytovanej spoločnosťou a sťažnosti a podnety spotrebiteľov je možné
+                uplatniť osobne v sídle spoločnosti, elektronicky na adrese: <email>&email_info;</email> alebo
+                telefonicky na tel. č. 0948 881 081.Ceny služieb poskytovaných spoločnosťou sú uvedené
+                v cenníku služieb dostupnom na adrese: <link>&sf_url;/cennik/</link> a cenníku
+                doplnkových služieb dostupnom na adrese: <link>&sf_url;/cennik-doplnkovych-sluzieb/</link>.
+                Spotrebiteľ je v súlade s ust. § 7 zákona č. 102/2014 Z. z. o ochrane
+                spotrebiteľa v znení neskorších predpisov pri predaji tovaru alebo poskytovaní služieb na
+                základe zmluvy uzavretej na diaľku alebo zmluvy uzavretej mimo prevádzkových priestorov
+                predávajúceho, v platnom znení, oprávnený odstúpiť od zmluvy o poskytovaní služby aj bez
+                uvedenia dôvodu do 14 dní odo dňa jej uzatvorenia. Na účely odstúpenia od zmluvy môže
+                spotrebiteľ využiť formulár, ktorý tvorí prílohu č. 1 týchto všeobecných obchodných
+                podmienok. Oznámenie o odstúpení od zmluvy, resp. formulár uvedený v prílohe č. 1, môže
+                spotrebiteľ spoločnosti doručiť na adresu sídla spoločnosti, elektronicky na adresu:
+                <email>&email_info;</email>. Spoločnosť začne s poskytovaním služby po úhrade ceny zvolenej
+                služby spotrebiteľom, t.j. služba je spotrebiteľovi poskytovaná aj v období pred uplynutím
+                lehoty na odstúpenie od zmluvy. Uhradením ceny zvolenej služby spotrebiteľ vyjadruje svoj
+                súhlas so začatím poskytovania služby pred uplynutím lehoty na odstúpenie od zmluvy.
+                Spoločnosť výslovne uvádza, že v prípade odstúpenia od zmluvy je spotrebiteľ povinný uhradiť
+                spoločnosti iba cenu za skutočne poskytnuté plnenie do dňa doručenia oznámenia
+                o odstúpení od zmluvy. Uhradená cena za službu v časti prevyšujúcej cenu skutočne
+                poskytnutého plnenia bude spotrebiteľovi vrátená do 14 dní odo dňa doručenia oznámenia
+                o odstúpení od zmluvy. Spoločnosť zodpovedá za vady poskytovanej služby v súlade
+                s príslušnými ustanoveniami Občianskeho zákonníka.</p>
+        </section>
+
+
+        <section>
+            <title>Riešenie sporov, alternatívne riešenie sporov</title>
+
+            <p>Účastníci právneho vzťahu podľa týchto všeobecných obchodných podmienok sa zaväzujú
+                prijať všetky dostupné opatrenia pre konkrétne riešenie akýchkoľvek nezhôd a sporov, ktoré
+                môžu vzniknúť z neplnenia povinností povinnej osoby a vzniknutú situáciu riešiť vzájomným
+                zmierom. Spory, ktoré by mohli vzniknúť v dôsledku neplnenia povinností podľa týchto
+                všeobecných obchodných podmienok budú predmetom konania pred príslušnými
+                všeobecnými súdmi Slovenskej republiky.</p>
+
+            <p>Okrem vyššie uvedeného má používateľ možnosť za účelom riešenia sporov medzi
+                spoločnosťou a používateľom využiť alternatívne riešenie sporov. Alternatívnym riešením sporu je postup subjektu
+                alternatívneho riešenia sporov, ktorého cieľom je dosiahnutie
+                zmierlivého vyriešenia sporu medzi jeho stranami, t.j. medzi spoločnosťou a používateľom.</p>
+
+            <p>Príslušným orgánom (subjektom) alternatívneho riešenia sporov je v zmysle všeobecne
+                záväzných právnych predpisov Slovenská obchodná inšpekcia, na ktorú sa môže spotrebiteľ
+                obrátiť alebo iný subjekt, ktorý sa nachádza v zozname subjektov alternatívneho riešenia
+                sporov zverejnený na stránke Ministerstva hospodárstva SR – <link>https://www.mhsr.sk</link>.</p>
+
+            <p>Spotrebiteľ sa môže o podmienkach a platforme alternatívneho riešenia sporov informovať
+                na: <link>https://www.soi.sk/sk/Alternativne-riesenie-spotrebitelskych-sporov.soi</link>.</p>
+
+            <p>Spotrebiteľ môže spor medzi ním a spoločnosťou riešiť aj prostredníctvom ODR platformy.
+                Spotrebiteľ sa môže o podmienkach a platforme ODR alternatívneho riešenia sporov
+                informovať na: <link>https://ec.europa.eu/consumers/odr/</link>.</p>
+        </section>
+
+        <section>
+            <title>Ukončenie právneho vzťahu</title>
+
+            <p>Účastníci právneho vzťahu sa môžu dohodnúť na jeho ukončení osobitnou dohodou.</p>
+            <p>Spoločnosť má právo právny vzťah ukončiť jednostranne v súlade s ustanoveniami týchto
+                všeobecných obchodných podmienok.</p>
+            <p>Po skončení právneho vzťahu medzi spoločnosťou a používateľom, teda po uplynutí doby
+                podľa ustanovenia čl. V ods. <see ref="archivacia"/> týchto všeobecných obchodných podmienok je spoločnosť
+                povinná nenávratne odstrániť obsah používateľa z úložiska dát jeho vymazaním.</p>
+        </section>
+
+        <section>
+            <title>Záverečné ustanovenia</title>
+
+            <p>Tieto ako aj prípadné ďalšie všeobecné obchodné podmienky nadobúdajú platnosť a
+                účinnosť dňom ich sprístupnenia verejnosti prostredníctvom internetovej stránky.</p>
+        </section>
+    </content>
+</sf-vop>

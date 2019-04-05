@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sf-vop [
+<!ENTITY sf_url "www.superfaktura.cz">
+<!ENTITY email_info "info@superfaktura.cz">
+<!ELEMENT sf-vop (title, header, content)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT header (bleh, name, info,validity)>
+<!ELEMENT content (section*)>
+<!ELEMENT section (title, p*)>
+<!ELEMENT p (#PCDATA|link|email|list|see|text)*>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT list (item+)>
+<!ELEMENT item (#PCDATA|link|email|see)*>
+<!ELEMENT see EMPTY>
+<!ELEMENT text (#PCDATA|link|email|see)*>
+<!ELEMENT line (#PCDATA)>
+<!ELEMENT bleh (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT info (line)*>
+<!ELEMENT validity (#PCDATA|link|email)*>
+<!ATTLIST list ordered (true|false) "false">
+<!ATTLIST list type (letter|number) "number">
+<!ATTLIST p id ID #IMPLIED>
+<!ATTLIST section id ID #IMPLIED>
+<!ATTLIST see ref IDREF #IMPLIED>
+]>
+<sf-vop>
+    <title>Všeobecné obchodní podmínky</title>
+    <header>
+
+        <bleh>obchodní společnosti</bleh>
+
+        <name>Superfaktura.cz, s.r.o.,</name>
+
+        <info>
+            <line>se sídlem Šámalova 2904/21, Židenice, 61 500 Brno, IČ: 015 69 651,</line>
+            <line>DIČ: CZ01569651, zapsané do obchodného rejstříku vedeném</line>
+            <line>Krajským soudem v Brně, oddíl C, vložka č. 78654</line>
+            <line>(dále jen „společnost“ v příslušném gramatickém tvaru)</line>
+        </info>
+
+        <validity>platné a účinné při provozování a používaní internetové stránky <link>&sf_url;</link> a poskytovaní služby Superfaktura.cz</validity>
+    </header>
+
+    <content>
+        <section>
+            <title>Úvodní ustanovení</title>
+            <p>Tyto všeobecné obchodní podmínky podrobně upravují rámec právního vztahu mezi společností a návštěvníkem
+                vznikajícího při prohlížení obsahu internetové stránky a rámec právního vztahu mezi společností
+                a uživatelem vznikajícího při využívání služby uživatelem. Návštěvník a uživatel jsou vázáni pravidlami
+                upravenými pomocí těchto všeobecných obchodních podmínek od okamžiku získání postavení návštěvníka
+                nebo uživatele.</p>
+
+            <p>Právní vztahy neupravené těmito všeobecnými obchodními podmínkami se řídí příslušnými všeobecně závaznými
+                právními předpisy platnými na území České republiky, a to hlavně zákonem č. 89/2012 Sb. Občanský zákoník
+                ve znění pozdějších předpisů a zákonem č. 90/2012 Sb. o obchodních korporacích ve znění pozdějších
+                předpisů, a to i v případě, že návštěvník nebo uživatel jsou podnikatelské subjekty registrované
+                v zahraničí nebo jde o fyzické osoby, které jsou občany jiných států jako je Česká republika</p>
+
+            <p>Internetová stránka je pro účely těchto všeobecných podmínek internetová stránka, které obsah se
+                návštěvníkům a uživatelům zobrazí ve standardním internetovém prohlížeči po zadání adresy domény ve
+                znění <link>&sf_url;</link> pro vyloučení jakýchkoliv pochybností se ustanovuje, že pod internetovou
+                stránkou se pro účely těchto všeobecných podmínek rozumí každá internetová stránka identifikovaná přes
+                adresu subdomén k doméně <link>&sf_url;</link>.</p>
+
+            <p>Obsah internetové stránky je veškerý grafický, textový nebo jiný obsah, který se návštěvníkovi a/nebo
+                uživateli zobrazí při prohlížení internetové stránky a/nebo při využívaní služby kromě obsahu uživatele.
+                Společnost vykonává všechny majetková práva autorů nebo jiných osob, které se svojí tvůrčí duševní
+                činností podílejí na jeho vytvoření a má zároveň všechna práva k obsahu internetové stránky, který není
+                jako předmět ochrany chráněný právem třetí osoby z oblasti práva duševního vlastnictví. Pro vyloučení
+                pochybností se stanoví, že obsahem internetové stránky je veškerý software, který má možnost návštěvník
+                při prohlížení internetové stránky a/nebo uživatel při využívání služby používat. Vždy když se v těchto
+                obchodních podmínkách použije pojem obsah internetové stránky, myslí se tím obsah internetové stránky
+                jako celek a zároveň každá jeho část, pokud není v těchto obchodních podmínkách ustanoveno jinak.
+                Bez předchozího souhlasu společnosti nemá návštěvník ani uživatel právo obsah internetové stránky nebo
+                kteroukoliv jeho část použít.</p>
+
+            <p>Obsah uživatele je pro účely těchto všeobecných obchodních podmínek datový, nebo jiný obsah vytvořený
+                uživatelem prostřednictvím specifického programového prostředí internetové stránky, a to prostřednictvím
+                uživatelského účtu, a uložený na úložiště dat určené společností při využívaní služby. Obsah uživatele
+                není obsahem internetové stránky s tím, že je majetkem uživatele a za soulad obsahu uživatele
+                s příslušnými všeobecně závaznými právními předpisy platnými a účinnými na území České republiky
+                zodpovídá v plném rozsahu uživatel.</p>
+
+            <p>Návštěvník je pro účely těchto všeobecných obchodních podmínek fyzická nebo právnická osoba, která si
+                v prostředí standardního internetového prohlížeče zadá do příkazového řádku adresu domény
+                <link>&sf_url;</link>  nebo adresu některé ze subdomén domény <link>&sf_url;</link>  a dojde k zobrazení
+                obsahu internetové stránky, nebo dojde k jejímu přesměrování na obsah internetové stránky z prostředí
+                internetových vyhledávacích služeb, nebo z jiné internetové stránky a zobrazí se obsah internetové
+                stránky.</p>
+
+            <p>Uživatel je právnická nebo fyzická osoba oprávněná k podnikání podle zvláštního předpisu, která pravdivě
+                a úplně vyplnila registrační formulář a zaregistrovala se pro užívání služby poskytované společností
+                s využitím internetové stránky. V případě, že si uživatel pouze prohlíží internetovou stránku
+                a nevyužívá službu, považuje se za návštěvníka.</p>
+
+            <p>Uživatelský účet je pracovní prostředí uživatele, ke kterému získá uživatel přístup po dokončení
+                registrace a které slouží k využívání služby uživatelem. Přístup ke každému uživatelskému účtu bude
+                definovaný unikátním spojením přihlašovacího jména a hesla vázajícího se k přihlašovacímu jménu nebo
+                bude založený na autentifikaci třetí stranou (zjednodušeně přihlašování hlavně přes společnosti Google
+                či Facebook). Povinnou součástí úspěšného vytvoření uživatelského účtu je vyjádření souhlasu s těmito
+                všeobecnými obchodními podmínkami společnosti.</p>
+
+            <p>Služba je pro účely těchto všeobecných obchodních podmínek služba správy administrativně‑ekonomické
+                agendy podnikatelských subjektů v rozsahu nabídky zpřístupněné veřejnosti na internetové stránce
+                a určené společností. Službu poskytuje společnost úplatně, a to za ceny podle aktuálního ceníku
+                zpřístupněného veřejnosti prostřednictvím internetové stránky. Společnost si vyhrazuje právo poskytovat
+                službu během společností určeného období bezúplatně nebo za cenu sníženou o společností určenou sumu.
+                Součástí služby je i uchovávání záznamů a informací, které uživatel zadá do služby. Toto uchovávání
+                záznamů nemá charakter archivace dokladů uživatele v souladu se zákonem č. 563/1991 Sb. o účetnictví
+                ve znění pozdějších předpisů. Společnost si zároveň vyhrazuje právo informovat uživatele o stavu
+                předplacení služby.</p>
+
+            <p>Společnost je obchodní společností založenou, vzniklou a zapsanou v příslušných registrech v souladu
+                s právními předpisy platnými a účinnými na území České republiky a je oprávněná vykonávat podnikatelskou
+                činnost tak, aby mohla být provozovatelem internetové stránky a zároveň poskytovatelem služby.</p>
+
+            <p>Technické zařízení je zařízení obsahující hardwarové a softwarové vybavení umožňující připojení se
+                k internetové stránce v prostředí elektronické komunikační sítě internet, prohlížení obsahu internetové
+                stránky a využívaní služby, zejména osobní počítač a/nebo notebook a/nebo tablet a/nebo smartphone.
+                Technické zařízení nemusí být ve vlastnictví návštěvníka a/nebo uživatele. Za jeho použití v souvislosti
+                s prohlížením internetové stránky a/nebo využitím služby zodpovídá výlučně návštěvník a/nebo uživatel.
+            </p>
+        </section>
+
+        <section>
+            <title>Pravidla pro prohlížení internetové stránky</title>
+
+            <p>Návštěvník má právo prohlížet si obsah internetové stránky s využitím technického zařízení.</p>
+
+            <p id="prehliadanie-stranok">Návštěvník je povinen při prohlížení internetové stránky a jakékoliv časti obsahu internetové stránky
+                postupovat takovým způsobem, aby svým jednáním nezasahoval do práv společnosti a/nebo jiných návštěvníků
+                a/nebo uživatelů a/nebo třetích osob.</p>
+
+            <p>Návštěvník nesmí z prostředí internetové stránky provést download (tzv. stáhnutí) obsahu internetové
+                stránky nebo jakékoliv jeho časti do technického zařízení nad rámec obsahu internetové stránky určeného
+                společností na stáhnutí do technického zařízení, ani si z obsahu internetové stránky pořizovat žádný
+                obrazový a/nebo zvukový a/nebo audiovizuální záznam. V případě, že návštěvník tyto své povinnosti
+                poruší, zodpovídá za veškerou škodu, která vznikne společnosti a/nebo jiným návštěvníkům a/nebo jiným
+                uživatelům a/anebo třetím osobám.</p>
+
+            <p>Návštěvník má právo provést download té části obsahu internetové stránky, kterou pro tento účel určí
+                společnost s tím, že při tomto postupu je povinen dodržet pokyny společnosti. V případě nedodržení
+                pokynů společnosti zaniká jakékoliv právo návštěvníka na náhradu případné škody.</p>
+
+            <p>V případě, že je obsahem internetové stránky prostor pro vyjádření názoru nebo jiného vyjádření
+                návštěvníka ke konkrétní skutečnosti, návštěvník je taktéž povinen postupovat podle ustanovení čl. II
+                odst. <see ref="prehliadanie-stranok" /> těchto všeobecných obchodních podmínek. V případě, že bude možné zásah podle ustanovení čl.
+                II odst. <see ref="prehliadanie-stranok" /> těchto všeobecných obchodních podmínek předpokládat, společnost si vyhrazuje jednostranně
+                právo takový názor z obsahu internetové stránky odstranit. Pro vyloučení pochybností se stanoví, že
+                společnost nezodpovídá za jakýkoliv názor zobrazený prostřednictvím internetové stránky; za obsah názoru
+                nebo jiného vyjádření a případné porušení všeobecně závazných právních předpisů platných a účinných na
+                území České republiky zodpovídá návštěvník.</p>
+        </section>
+
+        <section>
+            <title>Registrace</title>
+
+            <p>V případě, že návštěvník má zájem využívat službu, je povinen provést registraci prostřednictvím
+                registračního formuláře zpřístupněného veřejnosti prostřednictvím internetové stránky.</p>
+
+            <p>Návštěvník je povinen uvést v registračním formuláři všechny povinné údaje v rozsahu určeném společností
+                s tím, že je zároveň povinen uvést údaje, které jsou správné, přesné a pravdivé. V případě, že v
+                registračním formuláři návštěvník uvede nesprávné a/nebo nepřesné a/nebo nepravdivé údaje a bude na
+                základě těchto údajů neoprávněně využívat postavení uživatele, čehož důsledkem bude vznik škody
+                společnosti a/nebo jiných návštěvníků a/nebo jiných uživatelů a/nebo třetích osob, návštěvník zodpovídá
+                za veškerou způsobenou škodu samostatně bez účasti společnosti.</p>
+
+            <p>Okamžikem odeslání registračního formuláře obsahujícího všechny povinné údaje a zároveň obsahujícího
+                údaje správné, přesné a pravdivé (dále jen „řádně vyplněný formulář“ v příslušném gramatickém tvaru)
+                a zaplacením ceny podle platného ceníku, návštěvník získává postavení uživatele. Podmínkou pro odeslání
+                registračního formuláře je vyjádření výslovného souhlasu s těmito všeobecnými obchodními podmínkami
+                zaškrtnutím příslušného políčka, tzv. „check boxu“.</p>
+
+            <p>Na základě řádně vyplněného formuláře společnost vytvoří uživateli uživatelský účet, který je uživatel
+                oprávněný používat při využívání služby a odešle uživateli způsobem a ve formě podle určení společnosti
+                přístupové údaje, pokud budou generované společností; pokud společností uvedené přihlašovací údaje
+                generované nebudou, platí jako přihlašovací údaje přihlašovací jméno a heslo určené uživatelům.</p>
+
+            <p>Uživatelský účet je oprávněný používat jen uživatel, neboli osoba, která vyplnila a odeslala společností
+                řádně vyplněný formulář. Pokud uživatel odevzdá přihlašovací údaje do svého uživatelského účtu třetí
+                osobě, nese samostatně a bez účasti společnosti následky za případné škody, které mu a/nebo společnosti
+                a/nebo jinému uživateli a/nebo návštěvníkovi a/nebo třetí osobě v souvislosti s užíváním služby třetí
+                osobou vzniknou.</p>
+
+            <p>V případě, že společnost zjistí, že je odůvodněně možné předpokládat, že odeslaný registrační formulář
+                není řádně vyplněným formulářem, společnost si vyhrazuje právo jednostranného zrušení uživatelského účtu
+                a nenávratného odstranění celého obsahu uživatele jeho vymazáním z úložiště dat. Společnost v takovém
+                případě nezodpovídá za případnou škodu vzniklou osobě, která odeslala společnosti registrační formulář
+                bez toho, aby splňoval parametry řádně vyplněného formuláře.</p>
+
+            <p>Každý z uživatelů má právo registrovat se jen jednou a využívat službu prostřednictvím jediného
+                uživatelského účtu; každý uživatelský účet je vázaný na jedno nebo více unikátních identifikačních čísel
+                (IČ). V případě, že se již registrovaný uživatel registruje opětovně společnost si vyhrazuje právo
+                jednostranně odstranit takto vzniknuté duplicitní uživatelské účty. V takovém případě, když jde
+                o podmínku pro existenci práva uživatele užívat službu, uživateli nevzniká právo na náhradu případné
+                škody, která mu v této souvislosti vznikla. V případě opakovaného postupu, jehož obsahem bude opětovná
+                registrace a vznik duplicitních uživatelských účtů, společnost si vyhrazuje právo odstranit každý
+                uživatelský účet uživatele a obsah uživatele bez vzniku práva uživatele na náhradu jakékoliv škody.</p>
+        </section>
+
+        <section>
+            <title>Obsah služby a práva a povinnosti společnosti</title>
+
+            <p>Společnost poskytuje prostřednictvím internetové stránky uživatelům službu, a to úplatně nebo bezplatně.
+                O bezplatnosti poskytování služby a o době trvání poskytování služby bezúplatně rozhoduje jednostranně
+                společnost.</p>
+
+            <p>Při poskytovaní služby společnost vytvoří uživateli podmínky zejména k možnosti jednoduché, rychlé
+                a bezpečné tvorby faktur, jejich tisku a odesílání emailem nebo poštou, pohodlného sledování plateb,
+                kompletního přehledu o dlužnících, hospodaření, evidenci nákladů, automatického posílání faktur poštou,
+                přípravy konkrétního druhu daňového přiznání a jiných možností podle aktuální nabídky společnosti
+                zpřístupněné veřejnosti prostřednictvím internetové stránky nebo samostatného blogu s adresou domény
+                ve znění <link>&sf_url;/blog/</link>.</p>
+
+            <p>Pro vyloučení pochybností se ustanovuje, že služba poskytovaná společností není poradenskou službou,
+                službou zabezpečující archivaci dokladů uživatele v souladu se zákonem. 563/1991 Sb. o účetnictví ve
+                znění pozdějších předpisů (dále jen „Zákon“), službou účetního nebo finančního poradce nebo advokáta
+                nebo jiné osoby podle speciálního závazného právního předpisu platného a činného na území České
+                republiky. Smyslem a účelem služby je zpřehlednění a zefektivnění administrativně-ekonomické agendy
+                uživatele. Za obsah konkrétních administrativních a ekonomických úkonů vykonávaných uživatelem ve vztahu
+                k třetím osobám, kromě jiného i ve vztahu k orgánům veřejné moci, nese výlučnou zodpovědnost uživatel.
+            </p>
+
+            <p>Uživatel bere na vědomí a souhlasí s tím, že pokud se na společnost obrátí orgán veřejné moci
+                v souvislosti s vedením konkrétního občanského, obchodního, správního (včetně daňového a registračního),
+                trestního nebo jiného řízení, společnost je povinna poskytnout tomuto orgánu všechny informace, které
+                budou mít k dispozici a poskytnutí těchto informací se nepovažuje za porušení povinností společnosti
+                podle těchto všeobecných obchodních podmínek.</p>
+
+            <p>Společnost si vyhrazuje právo poskytovat službu v společností určených balíčcích za ceny stanovené
+                společností.</p>
+
+            <p>Společnost je povinna zabezpečit, aby byla služba poskytovaná nepřetržitě po dobu jejího poskytování
+                neboli bez jejích výpadků nebo jiných přerušení. Za porušení povinností společnosti se nepovažuje
+                přerušení poskytování služby v důsledku okolností vylučujících zodpovědnost v souladu s čl. VII těchto
+                všeobecných obchodních podmínek. Za porušení povinností se taktéž nepovažuje přerušení poskytování
+                služby z důvodu servisních zásahů společnosti.</p>
+
+            <p>Společnost je povinna provádět všechny činnosti, které je od ní objektivně možné očekávat ze strany
+                uživatele vzhledem k povaze poskytované služby, zároveň vzhledem k podnikatelskému a ekonomickému zázemí
+                společnosti za účelem zabránění vzniku škody návštěvníka a/nebo uživatele. Za škodu na majetku
+                návštěvníka a/nebo uživatele, která vznikla v důsledku porušení jejich povinností, společnost
+                nezodpovídá.</p>
+
+            <p>V případě, že dojde ke změně skutečností, které budou mít vliv na poskytování služby uživateli se
+                společnost zavazuje, že o těchto skutečnostech bude informovat uživatele kterých se konkrétní změna bude
+                týkat, a to formou e-mailové zprávy, pokud bude mít společnost k dispozici e-mailovou adresu uživatele
+                nebo písemně na adresu sídla nebo místa podnikání uživatele, které uživatel oznámí společnosti
+                prostřednictvím řádně vyplněného formuláře v procesu registrace uživatele; v případě, pokud dojde ke
+                změně údajů na straně uživatele a uživatel o této skutečnosti společnost neinformuje a v důsledku této
+                skutečnosti nebude možné ze strany společnosti řádně si splnit svoji povinnost podle tohoto odstavce,
+                společnost nezodpovídá za škodu, která může být uživateli způsobena v důsledku neinformování uživatele.
+            </p>
+
+            <p>Společnost má i další práva a povinnosti vyplývající z jiných ustanovení těchto všeobecných obchodních
+                podmínek.</p>
+
+            <p>Společnost si vyhrazuje právo jednostranně doplnit nebo změnit tyto všeobecné obchodní podmínky, a to
+                i v případě, pokud to bude vyžadovat ochrana práv nebo oprávněných zájmů společnosti a/nebo návštěvníků
+                a/nebo uživatelů a/nebo třetích osob.</p>
+
+            <p>V případě, že uživatel poruší některou ze svých důležitých povinností stanovených dle těchto všeobecných
+                obchodních podmínek nebo opakovaně poruší méně závažnou povinnost podle těchto všeobecných obchodních
+                podmínek, společnost má právo jednostranně zrušit uživatelský účet uživatele a nenávratně odstranit
+                obsah uživatele z úložiště dat v takovém případě společnost nezodpovídá za škodu, která případně vznikne
+                uživateli v souvislosti s odstraněním uživatelského účtu a obsahu uživatele.</p>
+
+            <p>Uživatel bere na vědomí, že služba poskytnutá společností nezabezpečuje archivaci registraturních
+                záznamů/uchovávání účetních dokladů vložených nebo vytvořených uživatelem v rámci poskytnutí služby
+                podle zákona, resp. podle příslušných ustanovení daňových všeobecně závazných právních předpisů.
+                Společnost nezodpovídá za škodu, která případně vznikne uživateli v souvislosti s jeho povinnostmi
+                stanovenými všeobecně závaznými předpisy v oblasti registratury a archivnictví, resp. v oblasti
+                uchovávání účetních dokladů.</p>
+        </section>
+
+        <section>
+            <title>Práva a povinnosti uživatele</title>
+
+            <p>Uživatel má všechny povinnosti návštěvníka podle čl. II těchto všeobecných obchodních podmínek a zároveň vůči
+                uživateli má společnost stejné práva jako vůči návštěvníku.</p>
+
+            <p>Uživatel má právo používat uživatelský účet pro potřeby využívání služeb.</p>
+
+            <p>Uživatel je povinen zaplatit za poskytnutí služeb společnosti cenu v rozsahu a způsobem stanoveným v souladu
+                s těmito všeobecnými obchodními podmínkami a platným ceníkem zpřístupněným veřejnosti prostřednictvím
+                internetové stránky.</p>
+
+            <p>Uživatel je povinen postupovat tak, aby nedošlo k neoprávněnému vstupu do uživatelského účtu osobou, která na
+                vstup do tohoto účtu není oprávněna, zejména je povinen provést všechna opatření, aby zamezil úniku údajů
+                přihlašovacího jména a hesla, jinak zodpovídá za veškerou škodu, kterou v důsledku této skutečnosti utrpí
+                společnost a/nebo jiný uživatel a/nebo návštěvník a/nebo třetí osoba.</p>
+
+            <p>Pokud uživatel zjistí, že hrozí zásah do práv společnosti a/nebo práv uživatele a/nebo práv jiných uživatelů
+                a/nebo práv návštěvníků a/nebo práv třetích osob, je povinen o této skutečnosti bezodkladně informovat
+                společnost. Stejnou povinnost má uživatel i v případě, že se dozví o již existujícím zásahu do práv osob
+                podle předcházející věty tohoto odstavce.</p>
+
+            <p>Uživatel má právo provést download konkrétního obsahu určeného společností a zároveň při využívání údajů
+                nahrávat na úložiště dat určené společností data spojené s podnikatelskou činností uživatele jako obsah
+                uživatele.</p>
+
+            <p id="archivacia">Obsah uživatele má uživatel právo archivovat na datovém úložišti určeném společností po dobu tří let po
+                skončení poskytování služby; za skončení poskytování služby se považuje okamžik uplynutí posledního dne
+                období, během kterého uživatel využíval službu, za kterou uhradil cenu. Uživatel bude mít právo vstupu
+                do uživatelského účtu i po skončení poskytování služby s tím, že veškerý obsah uživatele bude moci
+                exportovat z úložiště dat; po skončení poskytování služby však uživatel nebude moci vytvářet nový
+                uživatelský obsah. Po uplynutí této doby společnost obsah uživatele z úložiště určeného společností
+                nenávratně odstraní jeho smazáním. Uživatel má právo požádat společnost o okamžité odstranění uživatelského
+                účtu a/nebo obsahu uživatele s tím, že společnost po obdržení takového požadavku uživatelský účet zruší
+                a nenávratně odstraní obsah uživatele bezodkladně po doručení žádosti uživatele smazáním veškerých dat,
+                které jsou součástí obsahu uživatele. Za odstranění obsahu uživatele si společnost nebude účtovat žádné
+                poplatky nebo ceny. Uživatel má možnost smazat obsah svého uživatelského účtu i samostatně, a to smazáním
+                údajů, které do něho vyplnil.</p>
+
+            <p>Uživatel má právo požádat společnost o likvidaci, respektive výmaz osobních údajů, které společnosti poskytl
+                (dále jen „likvidace osobních údajů“). Při likvidaci osobních údajů společnost maže, respektive likviduje
+                všechny osobní údaje, které uživatel společnosti poskytl, kromě těch, které je společnost povinná uchovávat
+                ve smyslu všeobecně závazných právních předpisů platných a účinných na území České republiky.</p>
+
+            <p>Uživatel má právo používat obsah internetové stránky tak, aby mohl řádně využívat službu a s tímto použitím
+                obsahu internetové stránky společnost vyslovuje svůj nevýhradní souhlas platný na území České republiky a po
+                dobu trvání právního vztahu mezi společností a uživatelem; tímto ustanovením nejsou dotčeny povinnosti
+                uživatele podle těchto všeobecných obchodních podmínek.</p>
+
+            <p>V případě, že společnost zjistí, že objektivně existuje předpoklad o tom, že uživatel ukládá na úložiště dat
+                určené společností v rámci využívání služby data, které zasahují do práv společnosti a/nebo jiných uživatelů
+                a/nebo návštěvníků a/nebo třetích osob, společnost má právo jednostranně nenávratně odstranit veškerý obsah
+                uživatele z úložiště dat jeho smazáním. Před uskutečněním zrušení uživatelského účtu a nenávratným smazáním
+                obsahu uživatele společnost o zamýšleném úkonu uživatele upozorní a zároveň ho vyzve, aby si obsah uživatele
+                vyexportoval. Společnost v tomto případě nezodpovídá za škodu, která v důsledku tohoto jednání může
+                uživateli vzniknout.</p>
+
+            <p>Uživatel bere na vědomí, že v rámci zásad férového využívání služby (FUP), je jeho maximální počet API volání
+                (requestů) na servery služby (dále jako limit) 1 000 volání za den respektive 30 000 volání za měsíc. Tento
+                limit je možné po dohodě uživatele a společnosti za smluvenou cenu navýšit. V případě překročení těchto
+                limitů si společnost vyhrazuje právo omezit službu, popřípadě bezodkladně odstoupit od smlouvy.</p>
+        </section>
+
+        <section>
+            <title>Platební podmínky a fakturace</title>
+
+            <p>Společnost má za poskytnutí služby právo na zaplacení ceny podle platného ceníku zpřístupněného společností
+                veřejnosti prostřednictvím internetové stránky.</p>
+
+            <p>Společnost si vyhrazuje právo přizpůsobovat ceny jednotlivým balíčkům, které bude nabízet návštěvníkům
+                a uživatelům a zároveň jednostranně měnit ceny za službu.</p>
+
+            <p>V případě, kdy dojde ke změně ceny za službu, společnost je povinna respektovat cenu za službu podle ceníku
+                platného v době vzniku právního vztahu mezi společností a uživatelem po dobu, během které má cena platit.
+            </p>
+
+            <p>Návštěvník a uživatel má právo zaplatit cenu za poskytnutí služby v režimu „online“ s využitím služby
+                internet bankingu nebo v režimu „offline“. V případě využití režimu „offline“ společnost zašle návštěvníkovi
+                nebo uživateli výzvu k zaplacení ceny. Po zaplacení ceny za službu společnost bezodkladně doručí uživateli
+                fakturu jako účetní a daňový doklad. Za řádně vystavenou fakturu se považuje faktura vystavená v souladu
+                s příslušnými všeobecně závaznými právním i předpisy platnými na území České republiky a bude obsahovat
+                všechny náležitosti řádného daňového a účetního dokladu.</p>
+
+            <p>Bankovní poplatky spojené s platbami návštěvníka a uživatele podle všeobecných obchodních podmínek hradí
+                návštěvník a uživatel.</p>
+
+            <p>Uživatel má právo začít využívat služby až po zaplacení ceny; návštěvník se stává uživatelem až po zaplacení
+                ceny a až po zaplacení ceny má právo využívat službu. V případě, že uživatel využívá službu a má v úmyslu
+                využívat službu i po skončení období, za kterou už cenu za poskytnutí služby zaplatil, je povinen zaplatit
+                cenu za další období předem tak, aby první den nového období byla cena za následující období již zaplacena.
+            </p>
+
+            <p>Cena se považuje za zaplacenou okamžikem jejího připsání na účet společnosti.</p>
+        </section>
+
+        <section>
+            <title>Okolnosti vylučující odpovědnost</title>
+
+            <p>Pro účely těchto všeobecných obchodních podmínek znamenají okolnosti vylučující odpovědnost společnosti
+                také mimořádné a neodvratitelné události anebo okolnosti a jejich bezprostřední následky, které jsou
+                mimo kontrolu společnosti a které společnosti zabrání anebo bezprostředně ovlivní řádné a úplné plnění
+                povinností vyplývajících z těchto všeobecných obchodních podmínek. Těmito událostmi může být zejména,
+                ale ne výlučně, živelné pohromy, válka, sabotáž, teroristické akce, blokáda, požár, stávka, epidemie,
+                selhání subdodavatele (včetně dodavatelů energií) atd. Stejné právní následky mohou mít změny všeobecně
+                závazných právních předpisů, pokud zásadním způsobem ovlivní plynulé pokračování právních vztahů
+                regulovaných těmito všeobecnými obchodními podmínkami a nebude existovat ekonomicky únosná alternativa.
+            </p>
+
+            <p>Společnost dále neodpovídá za újmu způsobenou výpadkem EET serverů finanční správy, zejména za odeslání
+                údajů z a na tyto servery, dále že evidence tržeb prostřednictvím služby je možná pouze v době
+                dostupnosti služby. Společnost taktéž neodpovídá za jakoukoli újmu způsobenou v důsledku toho, že
+                uživatel dostatečně nezabezpečil přístup do uživatelského účtu či svým jednáním způsobil vyzrazení údajů
+                do uživatelského účtu.</p>
+        </section>
+
+        <section>
+            <title>Předcházení škodám a náhrada škody</title>
+
+            <p>Společnost, návštěvník a uživatel jsou povinni věnovat zvýšenou pozornost předcházení škodám, a to
+                zejména všeobecné prevenci vzniku škod. Návštěvník či uživatel je povinen oznámit společnosti překážky,
+                které jim brání anebo budou bránit v plnění povinností podle těchto všeobecných obchodních podmínek
+                a důsledky neplnění. Informace musí být poskytnuta bez zbytečného odkladu ihned poté, co se povinná
+                strana o překážce dozvěděla, anebo se při náležité péči mohla dozvědět.</p>
+
+            <p>Každý účastník právního vztahu má právo na náhradu škody způsobené v důsledku porušení povinností jiným
+                účastníkem právního vztahu kromě případu, kdy je zodpovědnost vyloučena podle těchto všeobecných
+                obchodních podmínek.</p>
+
+            <p>V případě, že dojde k okolnosti vylučující odpovědnost společnosti, společnost je povinna o těchto
+                okolnostech bezodkladně písemně informovat uživatele.</p>
+
+            <p>Reklamace služby musí být zaslána z učtu uživatele na <email>&email_info;</email></p>
+
+            <p>O stavu reklamace bude uživatel okamžitě informován pomoci emailové komunikace.</p>
+        </section>
+
+        <section>
+            <title>Elektronická evidence tržeb</title>
+
+            <p>Podle zákona o evidenci tržeb je společnost povinna vystavit uživateli účtenku. Zároveň je společnost
+                povinna zaevidovat přijatou tržbu u správce daně online; v případě technického výpadku pak nejpozději
+                do 48 hodin.</p>
+
+            <p>Uživatel souhlasí s vystavením a zasláním účtenky společností elektronickou formou na jeho emailovou
+                adresu uvedenou v uživatelském účtu.</p>
+
+            <p>
+                <text>Uživatel, který hodlá zahájit evidenci tržeb, postupuje následovně:</text>
+                <list ordered="true" type="letter">
+                    <item>požádá o autentizační údaje do webové aplikace Elektronická evidence tržeb, kde si následně
+                        zaeviduje své provozovny a vygeneruje certifikát/y.</item>
+                    <item>do uživatelského účtu uloží certifikát a kód provozovny a vytvoří zde libovolný počet
+                        pokladen. Od tohoto okamžiku je schopen evidenci tržeb provádět.</item>
+                </list>
+            </p>
+        </section>
+        <section>
+            <title>Osobní údaje a jejich ochrana</title>
+
+            <p>Společnost shromažďuje osobní údaje uživatele v rozsahu podle údajů, které vyžaduje registrace, za účelem
+                plnění smlouvy, ve které uživatel vystupuje jako jedna ze smluvních stran. Na zpracování osobních údajů
+                uživatele podle předešlé věty se v souladu se všeobecnými právními předpisy upravujícími ochranu
+                osobních údajů, které jsou platné na území České republiky nevyžaduje souhlas uživatele, subjektu
+                osobních údajů.</p>
+
+            <p>
+                <text>Návštěvník a uživatel mají právo na základě písemné žádosti od společnosti vyžadovat:</text>
+                <list ordered="true" type="letter">
+                    <item>potvrzení, zda jsou, nebo nejsou osobní údaje zpracovávané,</item>
+                    <item>ve všeobecně srozumitelné formě informace o zpracování osobních údajů v informačním systému
+                        a obeznámit se s postupem zpracování a vyhodnocování informací,</item>
+                    <item>ve všeobecně srozumitelné formě přesné informace o zdroji ze kterého společnost získala jeho
+                        osobní údaje na zpracování,</item>
+                    <item>ve všeobecně srozumitelné formě seznam jeho osobních údajů, které jsou předmětem zpracování,
+                    </item>
+                    <item>opravu či likvidaci jeho nesprávných, neúplných nebo neaktuálních osobních údajů, které jsou
+                        předmětem zpracování,</item>
+                    <item>likvidaci jeho osobních údajů, jejichž účel zpracování skončil,</item>
+                    <item>likvidaci jeho osobních údajů, které jsou předmětem zpracování, v případě porušení zákona,
+                    </item>
+                    <item>blokování jeho osobních údajů z důvodu odvolání souhlasu před uplynutím času jeho platnosti,
+                        pokud společnost zpracovává osobní údaje na základě souhlasu uživatele jako subjektu osobních
+                        údajů.</item>
+                </list>
+            </p>
+
+            <p>
+                <text>Návštěvník a uživatel, na základě písemné žádosti, mají právo u společnosti namítat vůči:</text>
+                <list type="letter" ordered="true">
+                    <item>Zpracování jeho osobních údajů, o kterých předpokládá, že jsou nebo budou zpracované na účely
+                        přímého marketingu bez jeho souhlasu a žádat jejich likvidaci,</item>
+                    <item>využívání osobních údajů v rozsahu – titul, jméno, příjmení a adresa – na účely přímého
+                        marketingu v poštovním styku, nebo</item>
+                    <item>poskytování osobních údajů v rozsahu titul, jméno, příjmení a adresa – na účely přímého
+                        marketingu.</item>
+                </list>
+            </p>
+
+            <p>Uživatel bere na vědomí, že společnost zpracovává osobní údaje, které uživatel zadá do svého
+                uživatelského konta za účelem poskytnutí služby uživateli ve smyslu těchto všeobecných podmínek.
+                Uživatel bere též na vědomí, že společnost může pověřit zpracováním údajů osobních údajů další
+                zpracovatele. Uživatel má též právo se u společnosti informovat, kterým zpracovávatelům byly jeho údaje
+                poskytnuté.</p>
+
+            <p>Společnost v případě, kdy zpracovává osobní údaje při poskytování služby pro návštěvníka a/nebo
+                uživatele, koná tak hlavně v postavení zpracovávatele ve smyslu zákona. Návštěvník a/nebo uživatel jsou
+                při využíváním služby primárně v postavení správce ve smyslu zákona.</p>
+
+            <p>Společnost zpracovává osobní údaje výlučně za účelem poskytování služby pro uživatele ve smyslu
+                všeobecných obchodních podmínek. Předmětem zpracování osobních údajů jsou hlavně osobní údaje klientů
+                uživatelů, které poskytuje uživatel společnosti za účelem využívání služeb společnosti tzn. služby
+                správy administrativně-ekonomické agendy podnikatelských subjektů (těmi může být i jméno a příjmení,
+                adresa a jiné v rozsahu, v jakém je uživatel poskytne společnosti). Osobní údaje, které zpracovává
+                společnost pro uživatele nejsou osobními údaji týkajícími se zdraví, biometrickými údaji, genetickými
+                údaji ani osobními údaji týkajícími se rozsudků v trestních věcech nebo trestných činů ve smyslu zákona.
+            </p>
+
+            <p>Společnost zachovává mlčenlivost o všech údajích a osobních údajích, které uživatel zadá do uživatelského
+                konta. V případě, že společnost pověří další osoby zpracováním osobních údajů, děje se tak jen za účelem
+                poskytování služby ve smyslu těchto všeobecných obchodních podmínek. Tyto osoby budou zároveň povinné
+                stejně tak dodržovat mlčenlivost stejně jako společnost ve vztahu k údajům, respektive k osobním údajům,
+                které uživatel společnosti poskytnul. Tyto osoby jsou povinné řídit se při vykonávání své činnosti kromě
+                jiného i těmito všeobecnými obchodními podmínkami.</p>
+
+            <p>Společnost za účelem zabezpečení bezpečnosti zpracování osobních údajů přijala se zřetelem na nejnovější
+                poznatky, na náklady na vykonání opatření, na povahu a rozsah, kontext a účel zpracování osobních údajů
+                a na rizika s různou pravděpodobností a závažností pro práva subjektů osobních údajů přiměřené technické
+                a organizační opatření na zajištění úrovně bezpečnosti přiměřené tomuto riziku. Uživatel má právo se
+                u společnosti informovat o přijatých bezpečnostních a technických opatřeních podle tohoto bodu
+                všeobecných obchodních podmínek.</p>
+
+            <p>Společnost po zohlednění povahy a rozsahu zpracování osobních údajů pro konkrétního uživatele může
+                poskytnout součinnost uživateli vhodnými technickými a organizačními opatřeními při plnění povinnosti
+                správce vůči subjektům osobních údajů. Takovou součinností může být hlavně poskytnutí služby
+                zákaznického servisu. Podobně poskytne společnost součinnost uživateli ohledem použitých bezpečnostních
+                a technických opatření, pomocí kterých společnost zajišťuje bezpečnost zpracování údajů respektive
+                osobních údajů. Společnost též poskytne součinnost v nevyhnutném rozsahu v rámci auditu ochrany osobních
+                údajů a kontroly ze strany uživatele nebo auditora pověřeného uživatelem.</p>
+        </section>
+
+        <section>
+            <title>Informace pro zákazníky</title>
+
+            <p>Reklamace služby poskytované společností a stížnosti a podněty spotřebitelů je možné uplatnit
+                elektronicky na adrese: <email>&email_info;</email> nebo telefonicky na tel. č. 604 044 670.</p>
+
+            <p>Ceny služeb poskytované společností jsou uvedené v ceníku dostupném na: <link>&sf_url;/cenník</link>
+                a ceníku doplňkových služeb dostupným na adrese: <link>&sf_url;/cenik-doplnkovych-sluzeb</link>.</p>
+
+            <p>Společnost zodpovídá za vady poskytované služby v souladu s příslušnými ustanoveními Občanského zákoníku.
+            </p>
+        </section>
+
+        <section>
+            <title>Řešení sporů,  alternativní řešení sporů</title>
+
+            <p>Účastníci právního vztahu se podle těchto všeobecných obchodních podmínek zavazují přijmout všechny
+                dostupné opatření pro konkrétní řešení jakýchkoliv neshod a sporů, které můžou vzniknout z neplnění
+                povinnosti povinné osoby a vzniklou situaci řešit vzájemným smírem. Spory, který by mohli vzniknout
+                v důsledku neplnění povinnosti podle těchto všeobecných obchodních podmínek budou předmětem konání před
+                příslušnými všeobecnými soudy České republiky.</p>
+
+            <p>Kromě výše uvedeného má uživatel možnost za účelem řešení sporů mezi společností a uživatelem využít
+                alternativní řešení sporů. Alternativním řešením sporu je postup subjektu alternativního řešení sporů,
+                kterého cílem je dosáhnutí smířlivého vyřešení sporu mezi jeho stranami, tj. mezi společností
+                a uživatelem.</p>
+
+            <p>Příslušným orgánem (subjektem) alternativního řešení sporů je ve smyslu všeobecně závazných právních
+                předpisů Česká obchodní inspekce, na kterou se může spotřebitel obrátit nebo jiný subjekt, který se
+                nachází v seznamu alternativního řešení sporů.</p>
+
+            <p>Spotřebitel může spor mezi ním a společností řešit i prostřednictvím ODR platformy. Více o ODR
+                platformách na: <link>https://ec.europa.eu/consumers/odr/</link>.</p>
+        </section>
+
+        <section>
+            <title>Ukončení právního vztahu</title>
+
+            <p>Účastníci právního vztahu se mohou dohodnout na jeho ukončení samostatnou dohodou.</p>
+
+            <p>Společnost má právo právní vztah ukončit jednostranně v souladu s ustanoveními těchto všeobecných
+                obchodních podmínek.</p>
+
+            <p>Po skončení právního vztahu mezi společností a uživatelem, případně po uplynutí doby podle ustanovení
+                čl. V odst. <see ref="archivacia" /> těchto všeobecných obchodních podmínek, je společnost povinna nenávratně odstranit
+                obsah uživatele z úložiště dat jeho vymazáním.</p>
+        </section>
+
+        <section>
+            <title>Závěrečné ustanovení</title>
+
+            <p>Tyto, jako i případné další všeobecné obchodní podmínky nabývají platnost a účinnost dnem jejich
+                zpřístupnění veřejnosti prostřednictvím internetové stránky.</p>
+        </section>
+    </content>
+</sf-vop>
